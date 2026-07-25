@@ -1,0 +1,33 @@
+// Write a C++ program to find the smallest of three numbers.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, c;
+
+    cout << "Enter the first Number: ";
+    cin >> a;
+
+    cout << "Enter the second Number: ";
+    cin >> b;
+
+    cout << "Enter the third Number: "; 
+    cin >> c;
+
+    if (a <= b && a <= c)
+    {
+        cout << a << " is the Smallest Number";
+    }
+    else if (b <= a && b <= c)
+    {
+        cout << b << " is the Smallest Number";
+    }
+    else
+    {
+        cout << c << " is the Smallest Number";
+    }
+
+    return 0;
+}
